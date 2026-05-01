@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files
+data/fer2013/*.csv
+data/fer2013/train/**/*.jpg
+data/fer2013/validation/**/*.jpg
+data/ravdess/train/**/*.wav
+data/ravdess/test/**/*.wav
+
+# Models
+models/*.h5
+models/*.pkl
+models/*.joblib
+models/*.pth
+
+# Outputs
+outputs/**/*.json
+outputs/**/*.log
+outputs/sessions/**/*.json
+
+# Streamlit
+.streamlit/
+.cache/
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.log
+*.bak
+.env
+.env.local
+config.local.py
+
+# Large files
+*.zip
+*.tar.gz
+*.tar
